@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    background-color: var(--main-color);
+    background: rgb(35,68,9);
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    caret-color: black;
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1890px;
+    height: 150px;
+    margin-bottom: 10px;
+    
+}
+.logo-site{
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+}
+.cabecalho h1{
+    color: white;
+}
+.cabecalho a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1650px;
+    height: 30px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 60px;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 2px 2px;
+    font-size: 20px;
+}
+.nav-menu a{
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin:0px 10px 0px 10px ;
+    transition: 0.5s;
+}
+.nav-menu a:hover{
+    transform: scale(1.2);
+}
+#buttonPerfil{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    transition: 1s;
+    box-shadow: 0px 0px 10px rgb(102, 255, 102);
+}
+#buttonPerfil:hover{
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(102, 255, 102);
+    padding: 0 1%;
+    color:rgb(102, 255, 102);
+    text-shadow:0px 0px 10px white;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 730px;
+    max-width: 100%;
+}
+#calculater{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 300px;
+    background-color: gray;
+    border-radius: 24px;
+}
+#calculater input{
+    height: 20px;
+    width: 250px;
+    margin: 10px;
+    border-style: none;
+}
+#calculater label{
+    text-align: center;
+    padding: 10px;
+    height: 20px;
+    width: 150px;
+    margin: 10px 5px 15 10px ;
+}
